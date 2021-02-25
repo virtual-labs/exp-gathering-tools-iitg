@@ -3,17 +3,18 @@
 
 <style type="text/css">
     
-      #div1 {width:200px;height:80px; padding-right:10px; padding-top:10px;margin-left: 2%; margin-top: 28%; float: left;}
+      #div1 {width:50px;height:60px; padding-right:10px; padding-top:10px;margin-left: 2%; margin-top: 32%; float: left;cursor: pointer;}
    
    
     
     #mainimg{
-        background-image: url("img/Fishingwithcepa.jpg");
+        background-image: url("img/chepaenlarge.jpg");
         background-repeat: no-repeat;
         height: 900px;
         float: left;
         width: 100%;
         position: relative;
+        cursor: pointer;
         
     }
 
@@ -42,6 +43,9 @@
     #divmm{
         margin-right: 30%;
     }
+
+    #img1{
+        }
 
 </style>
 
@@ -72,45 +76,38 @@ ev.target.appendChild(document.getElementById(data));
 
 }
 
-function checklocation()
+function correct()
 {
-    if($('#div1').find('#drag4').length == 1)
-   {
-    //document.write("CORRECT!"); 
-    alert("CORRECT!");
-    window.location = 'index2.html'
+    
+    alert("Well done");
 
     
-  } else {
-    alert("Wrong!");
-  }
+  
 }
 </script>
 <body >
 
 <div id="mainimg" ondrop="drop(event)" ondragover="allowDrop(event)">
 
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" onclick="correct()"></div>
 
 
 
 
 
-<div id="demoimg">
-<img id="drag1" src="img/cepa1.png" draggable="true" ondragstart="drag(event)">
-<img id="drag2" src="img/cepa2.png" draggable="true" ondragstart="drag(event)">
-<img id="drag3" src="img/cepa3.png" draggable="true" ondragstart="drag(event)">
-<img id="drag4" src="img/cepa4.png" draggable="true" ondragstart="drag(event)">
+<!--<div id="demoimg">-->
+
+
 
 <!--<img id="drag3" src="image/2.jpg" draggable="true" ondragstart="drag(event)">
 <img id="drag4" src="image/3.jpg" draggable="true" ondragstart="drag(event)">-->
 
-</div>
+<!--</div>-->
 
 
-<div id="divmm">
-<input type="submit" name="Submit" value="Next" id="sb" onclick="checklocation()">
-</div>
+<!--<div id="divmm">-->
+<!--<input type="submit" name="Submit" value="Next" id="sb" onclick="checklocation()">-->
+<!--</div>-->
 <!--<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 <img id="drag1" src="demo.jpg" draggable="true"
 ondragstart="drag(event)" width="336" height="69">
