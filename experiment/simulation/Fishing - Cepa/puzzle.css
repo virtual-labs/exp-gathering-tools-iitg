@@ -1,0 +1,134 @@
+
+html ,
+body {
+	height: 100%;
+}
+
+body {
+	background-attachment: fixed;
+	
+	background-position: center top;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	color: #00362B;
+	font-family:"VAG-Thin";
+	text-align: center;
+    }
+	h1{
+	    font-family: arial;
+	    font-size: 2.1em;
+	    letter-spacing: 1px;
+	    color: #36A009;
+	}
+
+	h2{
+	    display: inline-block;
+	    font-family:"VAG-Thin";
+	}
+
+	header{
+	    padding: 0 0 0 1em;
+	    overflow: hidden;
+	    width: 100%;
+	    text-align: left;
+	}
+
+	header h1{
+	    display: inline-block;
+	    font-size: 4em;
+	    text-shadow: 0 2px 0 #FFF;
+	    margin: 0;
+	    padding: 12px 0 0;
+	}
+	header h2{
+	    display: block;
+	    margin: 0;
+	    padding: 12px 0 0;
+	    text-shadow: 0 1px 0 #FFF;
+	}
+
+	#logo{
+	    display: inline-block;
+	    vertical-align: middle;
+	    float: left;
+	    margin-right: 1em;
+	}
+
+	#content{
+		width: 40%;
+		height: 96%;
+		
+	    text-align: center;
+	    text-align: justify;
+	    margin-left: 30%;
+	    background-image: url("img/Fishingwithcepa.jpg");
+	}
+
+	#fishingimg{
+		float: left;
+		width: 50%;
+		
+	}
+	#fishingtext{
+		
+		width: 30%;
+		height: 75%;
+		float: left;
+		padding: 3px;
+	}
+	#txt1{
+		margin-top: 30%;
+		margin-bottom: 40%;
+	}
+	#txt2{
+		margin-top: 50%;
+		margin-bottom: 40%;
+	}
+	#txt3{
+		margin-top: 60%;
+		margin-bottom: 40%;
+	}
+	#fishingbutton{
+		width: 100%;
+		float: left;
+		text-align: center;
+
+	}
+
+	#hiddenimg{
+       visibility: hidden;
+       width: 30%;
+		height: 75%;
+		float: left;
+		padding: 3px;
+	}
+
+    #hiddentext{
+       visibility: hidden;
+       width: 30%;
+		height: 75%;
+		float: left;
+		padding: 3px;
+    }
+
+    #hiddenbutton{
+       visibility: hidden;
+       width: 100%;
+		float: left;
+		text-align: center;
+    }
+
+    #txt5{
+    	margin-left: 40%;
+		margin-top: 30%;
+		margin-bottom: 40%;
+	}
+	#txt6{
+		margin-left: 40%;
+		margin-top: 50%;
+		margin-bottom: 40%;
+	}
+	
+
