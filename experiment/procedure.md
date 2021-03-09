@@ -1,4 +1,4 @@
-### Procedure
+
 
 ### How to trap fish with chepa
 
